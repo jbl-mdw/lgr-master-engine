@@ -2,7 +2,7 @@
 -- PostgreSQL database dump
 --
 
-\restrict IBvWRtz1Hh8uB4BE7oL7H1ABdPbxUofpEOQsDjIrvds81wzqo3qUf3ctcC2inl9
+\restrict KT73vqqjTHyKNirYtTG8Xh4VpzEBJ0TFYFAQtnGngxWoR3MXSgu9YChQfjE0QnV
 
 -- Dumped from database version 16.11 (Debian 16.11-1.pgdg13+1)
 -- Dumped by pg_dump version 16.11 (Debian 16.11-1.pgdg13+1)
@@ -7124,5 +7124,5 @@ ALTER TABLE ONLY public.sub_industries
 -- PostgreSQL database dump complete
 --
 
-\unrestrict IBvWRtz1Hh8uB4BE7oL7H1ABdPbxUofpEOQsDjIrvds81wzqo3qUf3ctcC2inl9
+\unrestrict KT73vqqjTHyKNirYtTG8Xh4VpzEBJ0TFYFAQtnGngxWoR3MXSgu9YChQfjE0QnV
 
