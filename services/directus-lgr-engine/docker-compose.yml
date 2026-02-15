@@ -13,12 +13,11 @@ services:
     restart: unless-stopped
 
   lgr-backend:
-    image: klirtrak-voice-backend:latest  # <--- Using your existing image
+    image: klirtrak-voice-backend:latest
     container_name: lgr-backend
     restart: always
     env_file: .env
     ports:
       - "3000:3000"
-    volumes:
-      - .:/app
-      - /app/node_modules
+      - "8055:8055"
+    entrypoint: ["/usr/local/bin/node", "/app/node_modules/.bin/directus", "start"]

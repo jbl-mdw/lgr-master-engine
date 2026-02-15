@@ -1,1 +1,2 @@
 services/directus-lgr-engine/.env
+docker-compose.yml.backup.*
